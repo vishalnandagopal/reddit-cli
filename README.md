@@ -34,4 +34,3 @@ creddit
 More guidance on MPV, and alternatives if it isn't installed
 
 (Copyright (c) 2024 Vishal N)
-
