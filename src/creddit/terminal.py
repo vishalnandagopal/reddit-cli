@@ -81,7 +81,6 @@ def introduce() -> None:
 
         create_config(c)
     else:
-
         create_config()
 
 
@@ -334,7 +333,12 @@ def run() -> None:
     """
     Callable function to be used while running from the terminal
     """
-    global config, ignored_users, no_of_posts_to_print, ignore_all_mod_posts, default_subreddit
+    global \
+        config, \
+        ignored_users, \
+        no_of_posts_to_print, \
+        ignore_all_mod_posts, \
+        default_subreddit
 
     # Clear screen
     cls()

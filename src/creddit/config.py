@@ -87,7 +87,6 @@ def read_config(config_path: Path = config_path) -> Config:
 
 
 def create_config(c: dict | Config = default_config) -> bool:
-
     required_keys = default_config.keys()
 
     if required_keys <= c.keys():
